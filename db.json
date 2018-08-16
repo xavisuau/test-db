@@ -1,14 +1,15 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "campaigns": [
+    { "cid": 000, "name": "cool campaign", "start_date": "03-07-2018", "end_date": "31-07-2018", lid": ["LB000000", "LB000001", "LB000004"], "status": "activada",  },
+    { "cid": 001, "name": "better campaign", "start_date": "05-08-2018", "end_date": "31-09-2018", lid": ["LB000000", "LB000006", "LB000018"], "status": "activada",  },
+    { "cid": 003, "name": "awesome campaign", "start_date": "01-10-2018", "end_date": "", lid": ["LB000004"], "status": "pending",  },
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "devices": [
+    { "lid": "LB000000", "sn": "9246598475249752847" },
+    { "lid": "LB000001", "sn": "8738947294792837483" },
+    { "lid": "LB000004", "sn": "8942758924758972429" },
+    { "lid": "LB000005", "sn": "8364632874278782378" },
+    { "lid": "LB000006", "sn": "2423430482390482390" },
+    { "lid": "LB0000018", "sn": "2382377483748238742" },
   ],
-  "profile": {
-    "name": "typicode"
-  }
 }
