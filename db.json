@@ -1,8 +1,24 @@
 {
   "campaigns": [
-    { "cid": 000, "name": "cool campaign", "start_date": "03-07-2018", "end_date": "31-07-2018", lid": ["LB000000", "LB000001", "LB000004"], "status": "activada"},
-    { "cid": 001, "name": "better campaign", "start_date": "05-08-2018", "end_date": "31-09-2018", lid": ["LB000000", "LB000006", "LB000018"], "status": "activada"},
-    { "cid": 003, "name": "awesome campaign", "start_date": "01-10-2018", "end_date": "", lid": ["LB000004"], "status": "pending",  }
+    { "cid": 000, 
+      "name": 
+      "cool campaign", 
+      "start_date": "03-07-2018", "end_date": "31-07-2018", 
+      "lid": ["LB000000", "LB000001", "LB000004"], 
+      "status": "activada",
+      "zip": "https://campaigns_storage/001.zip" }
+    { "cid": 001, 
+      "name": "better campaign", 
+      "start_date": "05-08-2018", "end_date": "31-09-2018", 
+      "lid": ["LB000000", "LB000006", "LB000018"], 
+      "status": "activada",
+      "zip": "https://campaigns_storage/001.zip"},
+    { "cid": 003, 
+      "name": "awesome campaign", 
+      "start_date": "01-10-2018", "end_date": "", 
+      "lid": ["LB000004"], 
+      "status": "pending",
+      "zip": "https://campaigns_storage/001.zip" }
   ],
   "devices": [
     { "lid": "LB000000", "sn": "9246598475249752847" },
