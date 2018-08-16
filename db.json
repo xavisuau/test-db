@@ -4,7 +4,7 @@
 			"name": "cool campaign",
 			"start_date": "03-07-2018",
 			"end_date": "31-07-2018",
-			"lid": ["LB000000", "LB000001", "LB000004"],
+			#"lid": ["LB000000", "LB000001", "LB000004"],
 			"status": "activada",
 			"zip": "https://campaigns_storage/001.zip"
 		}, 
@@ -13,7 +13,7 @@
 			"name": "better campaign",
 			"start_date": "05-08-2018",
 			"end_date": "31-09-2018",
-			"lid": ["LB000000", "LB000006", "LB000018"],
+			#"lid": ["LB000000", "LB000006", "LB000018"],
 			"status": "activada",
 			"zip": "https://campaigns_storage/001.zip"
 		},
@@ -22,7 +22,7 @@
 			"name": "awesome campaign",
 			"start_date": "01-10-2018",
 			"end_date": "",
-			"lid": ["LB000004"],
+			#"lid": ["LB000004"],
 			"status": "pending",
 			"zip": "https://campaigns_storage/001.zip"
 		}
